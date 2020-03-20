@@ -1,5 +1,5 @@
 # Quester
-Quester is a complete quest creation tool for Unity, featuring:
+Quester is a quest creation suite for Unity, featuring:
 - Unity-editor quest database management system
 - Node-based quest construction tool via xNode
 - Runtime Scriptable Object based object ID lookup system
