@@ -738,7 +738,7 @@ namespace Quester.Database.InternalEditor
 			var style = new GUIStyle();
 			style.fontSize = 14;
 
-			GUILayout.Label("Quest Editor", style);
+			GUILayout.Label("Quest Database", style);
 
 			if (GUILayout.Button("New"))
 			{

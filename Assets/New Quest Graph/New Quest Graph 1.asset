@@ -127,6 +127,6 @@ MonoBehaviour:
   - {fileID: -4761422350002292357}
   _primaryKey: 4
   _name: Quest B
-  _description: '''b'' new description'
+  _description: b
   _active: 1
   _complete: 0
