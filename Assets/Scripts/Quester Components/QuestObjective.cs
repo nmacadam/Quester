@@ -4,12 +4,7 @@ using System.Collections.Generic;
 using Quester.QuestEditor;
 using UnityEngine;
 
-public interface IObjectiveElement
-{
-    void Accept(IQuestVisitor visitor);
-}
-
-public abstract class QuestObjective : MonoBehaviour, IObjectiveElement
+public abstract class QuestObjective : MonoBehaviour
 {
     public QuestNode AttachedNode { get; protected set; }
 
@@ -25,7 +20,6 @@ public abstract class QuestObjective : MonoBehaviour, IObjectiveElement
     {
         AttachedNode = node;
     }
-    public abstract void Accept(IQuestVisitor visitor);
 }
 
 //public class QuestInteractor : MonoBehaviour

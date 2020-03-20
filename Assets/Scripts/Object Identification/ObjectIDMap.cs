@@ -78,10 +78,23 @@ public class ObjectIDMap : MonoBehaviour
         return _objectMap[id.GUID];
     }
 
+    public bool TryGet(ObjectID id, out GameObject gameObject)
+    {
+        gameObject = null;
+
+        if (_objectMap.ContainsKey(id.GUID))
+        {
+            gameObject = _objectMap[id.GUID];
+            return true;
+        }
+
+        return false;
+    }
+
     public void Add(ObjectID id, GameObject gameObject)
     {
-        //_objectMap[id.GUID] = gameObject;
-        _objectMap.Add(id.GUID, gameObject);
+        _objectMap[id.GUID] = gameObject;
+        //_objectMap.Add(id.GUID, gameObject);
     }
 
     public void Remove(ObjectID id)
