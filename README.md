@@ -13,3 +13,6 @@ These tools make quest creation completely visual and non-programatic by assigni
 4) Using the IDs associated with each objective node in the quest graph, the Quest Manager retrieves the ID'ed GameObjects and adds the respective objective components to them (e.g. TalkToObjective, KillObjective, etc.)
 
 ### Screenshots
+![Quest DBMS](https://raw.githubusercontent.com/nmacadam/Quester/master/Screenshots/questdbms.png)
+
+![Quest Builder](https://raw.githubusercontent.com/nmacadam/Quester/master/Screenshots/questbuilder.png)
