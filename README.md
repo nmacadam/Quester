@@ -17,6 +17,5 @@ These tools make quest creation completely visual and non-programatic by assigni
 - [SQLite4Unity3d](https://github.com/robertohuertasm/SQLite4Unity3d)
 
 ### Screenshots
-![Quest DBMS](https://raw.githubusercontent.com/nmacadam/Quester/master/Screenshots/questdbms.png)
-
-![Quest Builder](https://raw.githubusercontent.com/nmacadam/Quester/master/Screenshots/questbuilder.png)
+![Quest DBMS](https://raw.githubusercontent.com/nmacadam/Quester/master/Screenshots/questdbms.PNG)
+![Quest Builder](https://raw.githubusercontent.com/nmacadam/Quester/master/Screenshots/questbuilder.PNG)
